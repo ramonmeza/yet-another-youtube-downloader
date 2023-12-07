@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "yayd"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Meza <ramon_meza@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+customtkinter = "^5.2.1"
+pytube = "^15.0.0"
+Pillow = "^10.1.0"
+moviepy = "^1.0.3"
+tkinter-tooltip = "^2.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
